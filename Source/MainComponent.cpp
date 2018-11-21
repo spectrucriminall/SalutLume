@@ -25,8 +25,8 @@ void MainComponent::paint (Graphics& g)
     g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
     g.setFont (Font (16.0f));
-    g.setColour (Colours::white);
-    g.drawText ("Hello World!", getLocalBounds(), Justification::centred, true);
+    g.setColour (Colours::blue);
+    g.drawText ("Salut lume", getLocalBounds(), Justification::centred, true);
 }
 
 void MainComponent::resized()
